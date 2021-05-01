@@ -1,0 +1,23 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "A simple web based chat system build using node js.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdb7/LetsChat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdb7/LetsChat/issues"
+  },
+  "homepage": "https://github.com/hdb7/LetsChat#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
