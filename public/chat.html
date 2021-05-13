@@ -8,11 +8,15 @@
   <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+  <!--client-side socket library-->
+  <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script defer src="script/script.js"></script>
   <div id="msg-container"></div>
   <form id="send-container">
     <input type="text"id="msg-input">
     <button type="submit" id="send-buton"
-    style="background-color: rgb(176, 247, 134);">send</button>
+    style="background-color: rgb(176, 247, 134);
+    font-size: 15px;">send</button>
   </form>
 </body>
 </html>

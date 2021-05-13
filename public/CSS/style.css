@@ -6,17 +6,17 @@ body {
 }
 
 #msg-container {
-  width: 40%;
+  width: 50%;
   max-width: 1200px;
 }
 
 #msg-container div {
-  background-color: #CCC;
+  background-color: rgb(211, 255, 139);
   padding: 5px;
 }
 
 #msg-container div:nth-child(2n) {
-  background-color: rgb(246, 252, 173);
+  background-color: rgb(255, 254, 177);
 }
 
 #send-container {
@@ -25,7 +25,7 @@ body {
   bottom: 0;
   background-color: rgb(251, 255, 247);
   max-width: 1200px;
-  width: 40%;
+  width: 50%;
   display: flex;
 }
 
