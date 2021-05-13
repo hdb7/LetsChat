@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#msg-container {
+  width: 40%;
+  max-width: 1200px;
+}
+
+#msg-container div {
+  background-color: #CCC;
+  padding: 5px;
+}
+
+#msg-container div:nth-child(2n) {
+  background-color: rgb(246, 252, 173);
+}
+
+#send-container {
+  position: fixed;
+  padding-bottom: 60px;
+  bottom: 0;
+  background-color: rgb(251, 255, 247);
+  max-width: 1200px;
+  width: 40%;
+  display: flex;
+}
+
+#msg-input {
+  flex-grow: 1;
+}
